@@ -1,0 +1,34 @@
+/* EventList.css */
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #222; /* Darker background color */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card h3 {
+    margin: 0;
+  }
+  
+  .event-card p {
+    margin-top: 8px;
+    color: #ccc;
+  }
+  

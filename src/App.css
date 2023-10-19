@@ -1,0 +1,93 @@
+/* App.css */
+
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  padding: 10px;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  /* margin: 0 10px; */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Home.css */
+
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  /* margin-top: 100px; */
+  background-image: url('./images/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  margin-right: 10px;
+}
+
+.home-title {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.home-button.secondary {
+  background-color: #333;
+}
+
+.home-button.secondary:hover {
+  background-color: #222;
+}

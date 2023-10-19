@@ -1,0 +1,64 @@
+/* AddEventForm.css */
+
+/* AddEvent.css */
+
+.form-container {
+    margin: auto;
+    margin-top: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Set a maximum width for the form container */
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-bottom: 8px;
+  }
+  
+  .form-container input,
+  .form-container textarea,
+  .form-container select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-container button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #222;
+  }
+  
+  /* Center the form vertically for mobile view */
+  @media (max-width: 600px) {
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Set the height to 100% of viewport height */
+    }
+  
+    .form-container max-width {
+      width: 100%; /* Adjust the maximum width to take full width on small screens */
+    }
+  }
+  
